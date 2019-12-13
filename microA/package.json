@@ -1,0 +1,50 @@
+{
+  "name": "child",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.23.2",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "prop-types": "15.7.2",
+    "html-to-react": "1.4.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "serve": "11.1.0",
+    "style-loader": "1.0.0"
+  },
+  "scripts": {
+    "start": "npm run build && serve -l 3001 dist",
+    "dev": "webpack-dev-server --mode development --config webpack.config.dev.js",
+    "build": "webpack --mode development"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-loader": "8.0.6",
+    "@babel/cli": "7.6.0",
+    "@babel/core": "7.6.0",
+    "@babel/node": "7.6.1",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.6.0",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "7.6.0",
+    "react-hot-loader": "4.12.13",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.8.0"
+  }
+}

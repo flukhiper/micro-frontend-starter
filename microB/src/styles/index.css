@@ -1,0 +1,20 @@
+.micro-b {
+  padding: 20px;
+  background: rgb(0, 207, 55);
+  color: #fff;
+  /* animation: bounce 2s ease-in-out infinite; */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0)
+  }
+
+  50% {
+    transform: translateY(-100px)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}

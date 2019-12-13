@@ -1,0 +1,26 @@
+.micro-a {
+  padding: 20px;
+  background: rgb(255, 107, 107);
+  color: #fff;
+  /* animation: bounce 2s ease-in-out infinite; */
+}
+
+.micro-a button {
+  height: 40px;
+  width: auto;
+  margin-left: 20px
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0)
+  }
+
+  50% {
+    transform: translateY(-50px)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}
