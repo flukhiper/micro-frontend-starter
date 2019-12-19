@@ -1,6 +1,8 @@
 # Micro Frontend Starter
 
-This repository was made for workshop and experiment purpose. The project included 3 folders that has `wrapper`, `microA`, `microB`.
+This repository was made for workshop and experiment purpose. The project included 3 folders that consist of `wrapper`, `microA`, `microB`.
+
+> All of the configuration was configured up by developer's intuitive. if you want the better version of these, we're gladly to accep the merge request.
 
 ## Installation, build and run
 
@@ -60,8 +62,8 @@ In running state, we have 2 mode that has different purpose.
 
 ### Development mode
 
-Development configuration was wrote in `webpack.config.dev.js`, filled up with hot-reload stuff.
+Development configuration was wrote in `webpack.config.dev.js`, filled up with hot-reload stuff. You can create, edit, customize the React component and debug by run `yarn dev`.
 
 ### Serving mode
 
-Serving configuration was wrote in `webpack.config.js`, this just the ordinary config for react project.
+Serving configuration was wrote in `webpack.config.js`, this was just the ordinary config for react project. If you are ready to serve up web component to the wrapper project, just run `yarn start`. Our micro-project would stand for usage at declared port number in `package.json`. Do not forget to add web component declaration in wrapper project.
